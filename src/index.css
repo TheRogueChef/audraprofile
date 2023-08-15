@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: "Sutra";
+  src: local("Sutra"),
+    url("./fonts/sutra/Sutra.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Megidana";
+  src: local("Megidana"),
+    url("./fonts/megidana/Megidana.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "BrittanyAgustina";
+  src: local("BrittanyAgustina"),
+    url("./fonts/brittany_agustina/BrittanyAgustina.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Espect";
+  src: local("Espect"),
+    url("./fonts/espect_retro/Espect.otf") format("opentype");
+  font-weight: bold;
+}

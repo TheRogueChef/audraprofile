@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import  React from 'react';
+import { BrowserRouter as Router, Routes, Route } from'react-router-dom';
+import { LoadScript } from '@react-google-maps/api';
+import AboutMe from './components/AboutMe';
+import Main from './views/Main';
+import Dashboard from './components/Dashboard';
+import Contact from './components/Contact';
+import MapPage from './components/MapPage';
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <LoadScript>
+          <Routes>
+            <Route path='/dashboard' element={<Dashboard/>} />
+            <Route path='/' element={<Main/>}default/>
+            <Route path='/AboutMe' element={<AboutMe/>} />
+            <Route path='/Contact' element={<Contact/>} />
+            <Route path='/MapPage' element={<MapPage/>} />
+          </Routes>
+        </LoadScript>
+      </Router>
     </div>
   );
 }
