@@ -1,6 +1,5 @@
 import React from 'react';
 import '../components/style.css';
-// import { Link } from 'react-scroll';
 
 
 const Pricing = () => {
