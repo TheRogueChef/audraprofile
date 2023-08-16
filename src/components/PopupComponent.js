@@ -9,7 +9,7 @@ const PopupComponent = () => {
                 rootElement={document.getElementById('root')}
                 text="Schedule Your Appt"
                 textColor="white"
-                color="purple"
+                color="red"
             />
         </div>
     );
