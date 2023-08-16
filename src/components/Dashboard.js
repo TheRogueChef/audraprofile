@@ -4,6 +4,7 @@ import '../components/style.css';
 import { Image } from 'react-bootstrap';
 import ALogo from '../images/ALogo.png';
 import ACpic from '../images/ACPic.jpg';
+import Scissors from '../images/scissors.png';
 
 
 const Dashboard = () => {
@@ -15,11 +16,15 @@ const Dashboard = () => {
             </div>
             <div className='dashList'>
                 <Link to='about' smooth={true} duration={500} >About Me</Link>
-                <Link  to='projects' smooth={true} duration={500}>Portfolio</Link>
-                <Link to='techSkills' smooth={true} duration={500}>Pricing</Link>
-                <Link to='education' smooth={true} duration={500}>Education</Link>
-                <Link to='experience' smooth={true} duration={500}>Experience</Link>
+                <br />
+                <Image className='scissors' src={Scissors} alt='...' />
+                <br />
+                <Link to='pricing' smooth={true} duration={500}>Pricing</Link>
+                <br />
+                <Image className='scissors' src={Scissors} alt='...' />
+                <br />
                 <Link to='contact' smooth={true} duration={500}>Contact</Link>
+                <br /><br />
             </div>
                 <Image className='AMpic' src={ACpic} alt='...' />
         </div >

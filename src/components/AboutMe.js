@@ -14,9 +14,9 @@ const AboutMe = () => {
                     <p>Some of my specialties include: men’s and women’s designer cuts, perming, color correction, foiling, ombre, permanent and semi-permanent hair color. Being a stylist is my passion, and it is so great to be surrounded by other stylists who feel the same, here at Mollie Michelle! It is extremely rewarding to help people look and feel their best. Consultations are always complementary. I look forward to meeting you and helping you design your new look!</p>
                 </div>
             </div>
-            <br  />
-            {/* <Link to='top' style={{color:'red'}} smooth={true} duration={500}>Back to Top</Link> */}
-            <br  /><br  />
+            {/* <br  />
+            <Link to='top' style={{color:'red'}} smooth={true} duration={500}>Back to Top</Link>
+            <br  /><br  /> */}
         </div>
     )
 }

@@ -9,6 +9,7 @@ import '../components/style.css';
 
 const Contact = () => {
     return (
+
         <div className='contShell'>
             <div>
                 <a href='tel:425-765-7065'>
@@ -21,16 +22,20 @@ const Contact = () => {
                     <Image className='contactlogo' src={MMLogo} alt='...' />
                 </a>
                 <p>12121 Northup Way / suite 214 / Bellevue, WA 98005</p>
-                <Link to='/MapPage' target='_blank'>Map & Directions</Link>
+                <Link style={{ color: 'white', textDecoration: 'none', fontSize: '1.5rem', fontStyle: 'italic'}} to='/MapPage' target='_blank'>Map & Directions</Link>
             </div>
 
             <div>
-                <a href='mailto:audracarlson12@comcast.net'>
+                <a style={{ color: 'white', textDecoration: 'none'}} href='mailto:audracarlson12@comcast.net'>
                     <Image className='contactlogo' src={Email} alt='...' />
+                    <p>audracarlson12@comcast.net</p>
                 </a>
-                <p>audracarlson12@comcast.net</p>
+                
             </div>
+
         </div>
+
+
     );
 }
 
