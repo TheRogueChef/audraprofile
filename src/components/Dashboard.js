@@ -19,7 +19,7 @@ const Dashboard = () => {
                 <br />
                 <Image className='scissors' src={Scissors} alt='...' />
                 <br />
-                <Link to='pricing' smooth={true} duration={500}>Pricing</Link>
+                <Link to='pricing' smooth={true} duration={500}>Services</Link>
                 <br />
                 <Image className='scissors' src={Scissors} alt='...' />
                 <br />

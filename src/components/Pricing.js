@@ -7,7 +7,7 @@ const Pricing = () => {
     return (
         <div className='priceShell'  >
             <br />
-            <h1>Pricing</h1>
+            <h1>Services</h1>
             <br />
             <div >
                 <ul style={{ textAlign: 'inherit', listStyle: 'none'}}>Cuts
