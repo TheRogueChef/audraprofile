@@ -8,7 +8,14 @@ main {
     width: 100%;
 }
 
+.frame {
+    height: 10rem;
+    width: 7.5rem;
+    border-radius: 50%;
+    border: solid .1rem brown;
+    box-shadow: .1rem .1rem black;
 
+}
 
 /*Blank*/
 .blank {
@@ -19,39 +26,36 @@ main {
 /*Dashboard*/
 .dashShell {
     width: 100%;
-    height: 100%;
+    height: 7rem;
     display: flex;
     justify-content: space-evenly;
-    text-shadow: .1rem .1rem black;
-    font-family: Megidana;
-    padding: 2%;
     border: .2rem solid black;
     background-color: rgba(161, 84, 49, 0.4);
-}
 
-.ALogo {
-    border: .1rem silver solid;
-    border-radius: 50%;
-    height: 10rem;
-    background-color: rgba(174, 115, 176, 0.8);
 }
 
 .dashName {
     color: white;
-    font-size: 1rem;
-    text-shadow: .1rem .1rem black;
-    font-weight: bolder;
-    width: auto;
+    font-family: Megidana;
+    font-size: 5rem;
+    text-shadow: .25rem .25rem black;
+    border: solid .25rem black;
+    box-shadow: .25rem .25rem red;
+    border-radius: 50%;
+    background-color: rgb(193, 79, 51);
+    margin-top: 5%;
 }
 
 .dashList {
-    
     color: white;
     text-align: center;
-    margin-top: 1%;
-    width: 20%;
-    font-size: 1.75rem;
+    width: 35%;
+    font-size: 1.5rem;
     font-family: Megidana;
+    text-shadow: .1rem .1rem black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
 }
 
 .AMpic {
@@ -63,6 +67,8 @@ main {
 .scissors {
     height: 3rem;
     color: white;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* AboutMe */
@@ -75,8 +81,8 @@ main {
     width: 100%;
     height: 100%;
     border: .2rem solid black;
-    background-color: rgba(161, 84, 49, 0.4);
-    padding: 2%;
+    background-color: rgba(161, 84, 49, 0.6);
+
 }
 
 .priceShell {
@@ -87,8 +93,8 @@ main {
     color: white;
     font-size: 1.25rem;
     text-shadow: .1rem .1rem black;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
 }
 
 
@@ -104,10 +110,8 @@ main {
     width: 100%;
     height: 100%;
     color: white;
-    display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 2%;
+  
     font-family: Megidana;
     border: .2rem solid black;
     background-color: rgba(161, 84, 49, 0.4);
@@ -144,4 +148,90 @@ main {
 
 .scroll-to-top.visible {
     opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+    .dashList {
+        display: none;
+    }
+}
+
+.menu-items {
+    color: white;
+}
+
+
+.mobile-menu {
+    position: relative;
+    display: none;
+}
+
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-icon {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: 0.5s ease-in-out;
+}
+
+.menu-icon span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #333;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+}
+
+.menu-icon span:nth-child(1) {
+    top: 0px;
+}
+
+.menu-icon span:nth-child(2),
+.menu-icon span:nth-child(3) {
+    top: 10px;
+}
+
+.menu-icon span:nth-child(4) {
+    top: 20px;
+}
+
+.menu-icon.open span:nth-child(1) {
+    top: 10px;
+    transform: rotate(135deg);
+}
+
+.menu-icon.open span:nth-child(2) {
+    top: 10px;
+    opacity: 0;
+    left: -60px;
+}
+
+.menu-icon.open span:nth-child(3) {
+    top: 10px;
+    transform: rotate(-135deg);
+}
+
+.menu-icon.open span:nth-child(4) {
+    top: 10px;
+    transform: rotate(-135deg);
+}
+
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block;
+    }
 }

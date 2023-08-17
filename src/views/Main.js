@@ -7,6 +7,8 @@ import Blank from '../components/Blank';
 import PopupComponent from '../components/PopupComponent';
 import Pricing from '../components/Pricing';
 import ScrollToTopButton from '../components/ScrollToTopButton';
+import Specialties from '../components/Specialties';
+import Promotions from '../components/Promotions';
 import '../components/style.css';
 
 const DisplayPage = () => {
@@ -15,7 +17,6 @@ const DisplayPage = () => {
             <Element name="top">
                 <Dashboard />
             </Element>
-            <br/>
             <Element name="blank">
                 <Blank />
             </Element>
@@ -25,8 +26,20 @@ const DisplayPage = () => {
             <Element name="blank">
                 <Blank />
             </Element>
+            <Element name="specialties">
+                <Specialties />
+            </Element>
+            <Element name="blank">
+                <Blank />
+            </Element>
             <Element name="pricing">
                 <Pricing />
+            </Element>
+            <Element name="blank">
+                <Blank />
+            </Element>
+            <Element name="promotions">
+                <Promotions />
             </Element>
             <Element name="blank">
                 <Blank />

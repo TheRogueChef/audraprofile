@@ -37,3 +37,27 @@ code {
     url("./fonts/espect_retro/Espect.otf") format("opentype");
   font-weight: bold;
 }
+@font-face {
+  font-family: "Holipop";
+  src: local("Holipop"),
+    url("./fonts/holipop/Holipop.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Ladytop";
+  src: local("Ladytop"),
+    url("./fonts/ladytop/Ladytop.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "QuickerMachine";
+  src: local("QuickerMachine"),
+    url("./fonts/QuickerMachine/QuickerMachine.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Ukasyah";
+  src: local("Ukasyah"),
+    url("./fonts/ukasyah/Ukasyah.ttf") format("truetype");
+  font-weight: bold;
+}
