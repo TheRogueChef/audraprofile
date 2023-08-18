@@ -9,6 +9,7 @@ import Pricing from '../components/Pricing';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 import Specialties from '../components/Specialties';
 import Promotions from '../components/Promotions';
+import GiftCards from '../components/GiftCards';
 import '../components/style.css';
 
 const DisplayPage = () => {
@@ -40,6 +41,12 @@ const DisplayPage = () => {
             </Element>
             <Element name="promotions">
                 <Promotions />
+            </Element>
+            <Element name="blank">
+                <Blank />
+            </Element>
+            <Element name="giftCards">
+                <GiftCards />
             </Element>
             <Element name="blank">
                 <Blank />
