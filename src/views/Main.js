@@ -4,7 +4,7 @@ import Dashboard from '../components/Dashboard';
 import Contact from '../components/Contact';
 import AboutMe from '../components/AboutMe';
 import Blank from '../components/Blank';
-import PopupComponent from '../components/PopupComponent';
+// import PopupComponent from '../components/PopupComponent';
 import Pricing from '../components/Pricing';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 import Specialties from '../components/Specialties';
@@ -51,9 +51,9 @@ const DisplayPage = () => {
             <Element name="blank">
                 <Blank />
             </Element>
-            <Element name="schedule">
+            {/* <Element name="schedule">
                 <PopupComponent />
-            </Element>
+            </Element> */}
             <Element name="contact">
                 <Contact />
             </Element>
