@@ -10,7 +10,7 @@ const AboutMe = () => {
         <div className='AMShell'  >
             <div >
                 <br />
-            <Image className='frame' src={ACpic} alt='...' />
+            <Image className='frame' src={ACpic} alt='....' />
                 <div>
                     <p>Hello! My name is Audra Carlson and I am a stylist who has been working in the Bellevue area for the past twenty five years. After graduating from the Gene Juarez Advanced Training Center I began work as a designer for Gene Juarez Salon. I soon decided I wanted to study hair color as well.</p>
                     <p>Once I chose to pursue hair color I was fortunate enough to work closely with some top colorists and keep myself current with modern trends by attending many advanced hair color courses. Recently, I just completed nineteen years at Michaels of Bellevue Salon, where I was a lead colorist, stylist, and team mentor.</p>
