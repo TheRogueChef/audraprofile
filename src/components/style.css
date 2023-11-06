@@ -97,6 +97,16 @@ main {
     height: auto;
 }
 
+.Bar {
+    margin-left: -5%;
+    margin-right: -5%;
+}
+
+.Bar2 {
+    margin-left: -10%;
+    margin-right: -10%;
+}
+
 
 /*Contact Page*/
 .contactlogo {
@@ -111,7 +121,6 @@ main {
     height: 100%;
     color: white;
     align-items: center;
-  
     font-family: Megidana;
     border: .2rem solid black;
     background-color: rgba(161, 84, 49, 0.4);
@@ -155,6 +164,34 @@ main {
     .dashList {
         display: none;
     }
+
+    HTML {
+        background-size: 475%;
+        background-position: center;
+    }
+    .AMShellText {
+        font-size: 1.5rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .contShell {
+        font-size: 1rem;
+     
+    }
+
+
+    .priceShell {
+        font-size: 1rem;
+    }
+    .Bar {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .Bar2 {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
 }
 
 .menu-items {
@@ -165,6 +202,7 @@ main {
 .mobile-menu {
     position: relative;
     display: none;
+    margin-left: -10%;
 }
 
 .menu-toggle {
@@ -172,13 +210,14 @@ main {
     align-items: center;
     cursor: pointer;
     color: white;
+    margin-right: -50%;
 }
 
 .menu-icon {
     display: inline-block;
     width: 30px;
     height: 20px;
-    margin: 10%;
+    margin: 15%;
     position: relative;
     transform: rotate(0deg);
     transition: 0.5s ease-in-out;

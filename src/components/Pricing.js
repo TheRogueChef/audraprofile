@@ -15,6 +15,7 @@ const Pricing = () => {
                         <p>Mens = $50.00</p>
                         <p>Womens = starting at $70.00</p>
                 </div>
+                <hr className='Bar'/>
                 <div >
                     <h2 style={{ textDecoration: 'underline' }}>Highlights & Blonding</h2>
                         <p>Full Foil Highlights = starting at $160.00</p>
@@ -24,6 +25,7 @@ const Pricing = () => {
                         <p>Bleach & Tone = starting at $250.00</p>
                         <p style={{ fontStyle: 'italic' }}>Includes strengthening treatment</p>
                 </div>
+                <hr className='Bar'/>
                 <div >
                     <h2 style={{ textDecoration: 'underline' }}>Hair Color</h2>
                         <p>Root Touch Up = starting at $90.00</p>
@@ -38,6 +40,7 @@ const Pricing = () => {
                             <p style={{ fontStyle: 'italic' }}>This service can be very involved often requiring several appointments.</p>
                             <p>Service starts at $95.00/hr</p>
                     </div>
+                    <hr className='Bar2'/>
                     <div >
                         <h2 style={{ textDecoration: 'underline' }}>Strengthening Treatments</h2>
                             <p>Olaplex = $20.00 - $25.00</p>
